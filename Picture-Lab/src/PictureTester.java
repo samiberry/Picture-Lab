@@ -66,6 +66,13 @@ public class PictureTester
 	  motor.mirrorHorizontal();
 	  motor.explore();
 	  }
+  public static void testMirrorDiagnol()
+	  {
+	  Picture beach = new Picture("beach.jpg");
+	    beach.explore();
+	    beach.mirrorDiagnol();
+	    beach.explore();
+	  }
   /** Method to test mirrorTemple */
   public static void testMirrorTemple()
   {
@@ -107,7 +114,8 @@ public class PictureTester
     //testFixUnderwater();
     //testMirrorVertical();
     //testMirrorVerticalRightToLeft();
-    testMirrorHorizontal();
+    //testMirrorHorizontal();
+  	testMirrorDiagnol();
     //testMirrorTemple();
     //testMirrorArms();
     //testMirrorGull();
